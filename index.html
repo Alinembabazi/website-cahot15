@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GENESIS</title>
-   <script src="https://cdn.tailwindcss.com"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GENESIS</title>
 
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <link
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link
   rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" >
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
 
   </head>
 <body class="min-h-screen bg-gradient-to-br 
@@ -38,7 +40,7 @@
   <div class="flex items-center justify-center h-screen">
       <div class="text-center">
         <span>Smart, Fast, Always Active.</span>
-        <button class="bg-orange-700 px-4 py-2 rounded-3xl border">Launch App</button>
+        <button class="bg-orange-700 px-4 py-2 rounded-3xl border mt-2 mb-4">Launch App</button>
         <h1 class="text-4xl font-bold text-white mb-4">Build, Deploy & Talk to Al Agents in Seconds</h1>
         <p class="text-lg text-white mb-6">Design Al assistant that research, plan, and execute tasks - all powered by your prompts.</p>
         <button class="border rounded-2xl text-white px-6 py-2 rounded hover:bg-orange-800 w">Create Agent</button>
@@ -52,28 +54,29 @@
 
 <div class="flex flex-wrap items-center justify-center gap-8">
   <div class="flex items-center gap-2 text-white text-lg">
-    <i class="fa fa-windows text-2xl"></i>
+   <i class="fa-brands fa-microsoft text-white text-2xl"></i>
     <span>Microsoft</span>
   </div>
 
   <div class="flex items-center gap-2 text-white text-lg">
-    <i class="fa-brands  fa-framer text-2xl"></i>
-    <span>Framer</span>
+    <i class="fa-brands fa-framer"></i> Framer
+    <!-- <span>Framer</span> -->
   </div>
 
   <div class="flex items-center gap-2 text-white text-lg">
-    <i class="fa fa-instagram text-2xl"></i>
-    <span>Instagram</span>
+    <i class="fa-brands fa-instagram"></i> Instagram
+
+    <!-- <span>Instagram</span> -->
   </div>
 
   <div class="flex items-center gap-2 text-white text-lg">
-   <i class="fa-brands fa-huawei"></i>
-    <span>Huawei</span>
-  </div>
+    <img id="dimg_PXeLaYmfO9Odi-gPpMS8sA0_11" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAh1BMVEX///8AAAD5+fm/v7+bm5swMDDx8fHp6elkZGTe3t47Ozv19fUKCgrs7OxoaGjKysolJSU3NzdUVFTa2tq2traOjo6fn596enrR0dEdHR2Hh4fS0tJFRUXk5OSrq6u3t7eLi4tycnKCgoITExNlZWVPT09BQUFQUFBbW1uenp4aGhqnp6cqKirEye97AAAOs0lEQVR4nO1daVvyvBK2ZRPKIgIKAkLB7VH+/+87NjNZm2SCbYH3XLk/KYQyk0xmT7i7i4iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiPj/QLqdt++fHG++frXns/Si9NSL3vzwnjD0rO9n8ObmMN9emLJa0P1B7grk1iEHOWDTHl2YvqrInhMNtkXq6kPG/yke/yUGni2DFuagl//Mltx+mLQnw25pVPpQGvWwvAK1f0CrRPkvXv867AbxaqM8+SyNu7eOa1+B4jMxtxJe1jVdx7ibZ3HiIDwxrb5rJpLdVegORnfoIvzDGGkX0gL9q1AeCjfdSaaPdA8cXIf0MFj1I2IePNLlxt4CVh66x9rIF8/IpGw8bwV2Q4E4akNPvqEvV6KfxtFHdjJTRva8I5Nbdd+clgKwCx96q67Ns59sNYQqed06Hq/Ggx8dP9kbZeijf+jxNnVN3091ksgAMCvHFTpuM8gg9paqarbU0Ns0iT8U2T9i6I4aergiH4C5RZ8fwsneU0PH5cff/VheawyvNhJyimypIcd/4PDHkc9qBIVT+a/0KsnhUCw8oXWT5Kv09GKXX0x214yIifkyyaEIL1JyZMkgQlh2ofB4hFSYNosw+Im0AaQqLUspJrdazbP3iwFS8W68TqoP4Yz5QieAueVEKHKJ8Fgu1UJ/g7QWQsjokcaOk1MybZ5BNb+iywxp8cXKEF5pYlp8NRJpXKHqYY+WiJ+RdPP8hCfXgdDVmJZhbjpT9akRojrTdyN/eFgAR3rDXwZtuxmuhJHwqRmmjtC24jSUQ3Lcd9fznTZ/pzZk3yYtqjjlJOWjQA5V2RiV3i1Z4hpRzh+tlNkm/elkzcbR5lAVjXIo2WC60UbavXybSL4kXPkuyXHKKrUtbzenbHIbNUpOxZdMVEijDb58pFVBPzTFoEO6ZM2F9GpgNkhpln53ap+0phbREQBKtbCmSIf95U2rFpDp8dw+wCyC1ARnRCA9/pKqNQDFbtKlERbPudqzMnk1wFkPQxV5R+TqE66WqCBEGLyyoeDYN8Lhl/P7VnwIJaYQjrwRo4SQvjuHNOKA+5wy0WoxcI8pAJaMSJZ+cyH1hSBNRFFex5pHGU9+4mHqy60aGvh0eR2DuZXGarCZXoEVzrt75zB02CBiobkW2fgG2Rp0qsKvH3jY5s+iPbBclN9D55bALw7lVFV1EEEdOlp+jwyW2p9pQ/kjnNdTAwU4Yvfwmp+X/CMLLvzhIX4dIcpNRInUV6Kcel2yYcFh5nVf0X3w7vorcYj61NKupmBLcgjRGFnHaoJDwopxNeKf/YJDb7YDdaTb1iOGDezDnPpSpM7dNJSAofZyCIEKnW5sIgqmE77on/oc64LDnmcKYDMTVrVAE8kaOm5Fg54RHPrsAFh7ckOUstG1gM5R8O/1FBIJDsGOu4MYibWH0j/jk/5ecIhdjZU0h+zjI99GRjRh8EO2P2+Ude9EP4dh4WOBZnL7AfsfMyjuRfRzyHYhnYlLGhLSsMkF5825iF4OYWGoTEiBjY/MCgjRNUCmcxG9HG69k6OisXYbsttCfLvLsWEW36FJmMNAu2tJM6ETwO9zIsDb8HHo8GmYp+lOBimwH6OqBXQRNMHGIId/4OGw7fmYjkY7F4N2CQsP7DmIYqt1rRyC307WBZLGq8AhUsRIsC93IV/26GkeOoE1+9wvb+aJshAWmbWyZT1YjG/dzUz/hyjrqeHN9L6qremvrO2NvhmyYwuTSTajALVdWxZj4poUAxs98h0V6r2KB8fChKHR4BVgM5gusDgIzkwU0/8BeuxR4yYFqa6SHcbvfNCrWfRuYRG4pZIDhT9LNnHreN3AvUbHDjd0Fd0qcpYdrXZOhzes46fsqkMAWc7a7e3DTWhB4Uw8pkp2WKklfakFrTXpPDKjXFoUyOqXDAmrVNDtfKok9ZQ9cKrAoaY4c0Wtdr0p98S1sSCfXQrhmZhR23ulTHGqpVSqFL2NDOJC2efUZrQqR6iuma8yS0E5pG/Kd5tF5AoclmyzsqkJzccMsxlSgsucG6+yxSHsrNIC3SrZ0woclvX6h1Q5I3/CiE2GEWNAhsyQx2d6vqZSQpeWVGoFDm21ii/Ze+EtDw3ZEH2+QesZbNP1qIOQ0K3VKajAoX2VnoWXs/URxnT7pPySsY2YQ+qzP0chNl2HNqrAoctD+ycm1adw2ETk6iuwm7TiDWxNT3rtWXyXy2BW8cWdNYiTqDLP3BUbZvY1ZQOf0oJA5nK5xf1BLGDLKS9VLL5HeDZi87tLMVuTeihPqZLL5NYeMRYQ3dBbj66tcoTIa6RynkzouZQqxDXK3Jc6977ZCy5RH/BZzLyNOlW6MQlPqs23yKtjEfrGNEGObGu84AoLRa+V6/GISqVEImJ74F0mDi0HakS6WGBoZOkGFtmeh33jIrIkarPVMm9Ef4yyHfvWOj97NxUhL842/xcOUlpz6ULD9MiwuHw+6RzQ7bzJM3fIXy0BB5zuEarlTucQVGtueSgX0DQgc1PxCqaAUp7QZebFQgXWGhM4EN3dL9ckiuuGXgNyb1U7MYMSmCeeZe+XnEbgAjXWNw5DgQbXqDQtU/40j6lVUPlYInmQDhjhaqFlzjqQC3LKCyrQnAhxirmEQ+5LjAJSXkkdLQtBae5EiR3/6R4Yajq2Urz4vjDfKD8mJRtqEDUkwKlonuPEkwyG5YCdyNwWnmdhGhpWXV9CobV29LEaQB2NpkHVIIZ3rtW0GAfvTyo2NFdJRXCBc58rIx95WrAfOqs1tUOTNlHihbsXa4VGJGKsnT9EvhVb+MEVTBZUxAPU1JIRYjEQKxFztIQixN2XHYUDORPngwQzU3HSbx5SnUEMampYyAKaIwSEqMnABF9pCduc8dUUSyj0RS+ogMhRWyExwLNRIM9/PsHU8PhNFkD4X+ixyPAnVIMCajyTMKOPFio4ColL2+yDLr+KtcAdRYRyN6Hz+ipqPfbcP4tFGRfcdYtlct0ZVKQl2mJl+2cJaO1Hg3ohJXwFUvCyvTOC03LM5FkhA/WfQszPI0BJcWauowMTyV+YDyoxaKJbYX6OSk3Ou6yTOk5koonWxF908/PIOIUK0pkaJnls5mBXgXOVQR6yjGlAcVvFpslzwL+mcRHqEwNoaiZnCf/p0Nz6caTrPdlnroDqlDjDCU02L8tL3eTWnb22F/d+vC0AxKN27UA8LW/zArCIiNvDaDSaLZeTVms3n88X+/2B2jzZ/uXlZ/66a7Umy2Vv1GBjZQjSNPtFN9uu18tfBn6entqLxf5tPB5MB47+kynFYWrNlU+ng/E4by/aT08/u3lrve7/fm2WpWnDuvRc5zjMuwo4jMNxPD18fL7fN3hz25nu8SrM+5icF5pVzuP7EHRSQCDIZyuQhiV/ORq9fC/oQALgeE4IvjtjGc07xmpGWJL/F/l5HsgZcUvDvxIRdOYi+UsOJagG9Kcnn4mgOsb4L4XnNA959L5mfiygTcbqr9M8oSOzRq/B4qBYfP5750BK2cYLXaHsLWRMq0WoW2/s2bAalXArhWF1W7Vz5y0veEVr32E0zJMLf4KzOHrR65Oteu+tLm/KahxPzSdodJT6eO7rvBSnV0rfXPSeZMREyQIe87pnuLdX9uPHz5V+S2DUerl/P33eH1pNJImyyfPj6eH0nv9c+WfZGp3dxkPeiIiIiIiIiIiIiFtAyuB8zfI28Qnvp+gn8YHiDeugc/B46nQ6en1l1ClwKsKlbFP8+dAvfeJbuyGntWLDeINlNmD/qlWpNRvR+daPixcvySbn2S7/emdfyHBkEdWEfXBYgUPo5NHSn5j0ZhxCjKpxCJG/NieY0+FHEbD2oR4x5x1Re+U1aMzkjZu7UmKIcYgpsQocDmrgUCTJeXcbFrCUy6x4y7R67BwqriAMPdctDLfBoeihFodbTsaCyWZv+Sjon4dr2aw3TN8Oh0qrP38VBFCebZXnOGW+EE7EMiFVbymccqxuh8O8+B9Ejqfkt8aCyaJkR3xsI5/DheClnMy7BQ6Bmx0QzHUlqA2hTZU1EsdS2X/sJnS8ZftoS+bdAodQakFB5JevgAhybQpyDAvJTQqMZ0KKK2xtCbgBDuHQ2oH/fAumBfHCuq3CbwfUCT8POhaPweOZ9hPpjXA4OovDNmdFN29weA2PUbJq0xhs7xBK2JmkHGfU/otrdXH4OuoJjGZncch6Rx8loViD3yliCss8x8loKZSzgxuoaFUaGGrlcKjhHA6BPHZsAEoAqF3wAD775ASXGaZOPfvMzD0WK4cG6rWHNoRxyCQPfhsCPJkj1odzKXrMZSu8GeCE2Xj2J9xR5yq13QaHLXXdwERgCUk5U8oMSXHm5CA+CloHThe5jjrfBodgq3HvgcTyH/tYcTJhg7YE1y+Cq+Xtcwg76zMdFeiirkHFDHbyH1c6yu1nd+i4drQL0N/HOr5GdXKoGduu5DAFwZu5PmH9tRV0zMDMv6NSgQ6EHB8H7+ERuFdtYgw0bfFTCGq0cLcjOXS0T+F8wWdHcAkRWDtYzjaqT4yuMNayl4Cb5lB1jzlWclkd5wzQ/wY2frZyPDoTU9i+R3wgGn/75ReNcwiaRD17h7FSsTWddwmvFXY2TP9wGwLPkxqHAWvp1n69xjnM2Z8PSg8U5CPYD+qBEnxUj0zA43KVcnTZALDnNso83Ik7l/QrEy/FIX7BWCS75lKkMkVeDYJ66tgCPKJQTuMe5aewS+qjVV7GxjlMse/19Drrdrv9Fm/OKD4A62FcCABvg5ZUrk4S9kZ27imiL36G6TjYPHJsehfh0PEbXUwMO9rqINC4gVjnfPzUfN9Ye2vD50WyGL+YWQ7PL9zf3VNGSMLlXV1iufS1t/XRXYrDu5F5+vMRjAeYu9JPhUNki/eR8I8oz+eSu9c/1iv3l9fE4UeZQyUCBnSf5LHLzh7NP9rpUu4I1w2ElzeTKhqEz1cpKZPND/plGTVxGIrRetmarK/cuhQREREREREREREREREREREREREREREREXHj+B9VF8dRfHCiNQAAAABJRU5ErkJggg==" style="object-position:52% 40%" alt="Huawei Vector Icons free download in ..." 
+    class="YQ4gaf" height="22" width="22" data-csiid="PXeLaYmfO9Odi-gPpMS8sA0_13" data-atf="1">
+  <!-- <i class="fa-solid fa-mobile-screen"></i> Huawei -->
+<!-- <img src="" class="w-16 h-16" alt="Huawei Logo"> -->
+     <i class="fa-brands fa-walmart mr-2"></i> Walmart
 
-  <div class="flex items-center gap-2 text-white text-lg">
-    <i class="fa-brands fa-walmart text-2xl"></i>
-    <span>Walmart</span>
+    <!-- <span>Walmart</span> -->
   </div>
 </div>
 <div class="shadow-xl items-center justify-center  m-5 p-5">
@@ -107,72 +110,80 @@
   <p class="items-center ">Empower your business Al with agents that optimize processes and accelerate performance.</p>
 </div>
   </section>
-  <section class="flex flex-col md:flex-row  items-center gap-8 p-6">
-  
-
+  <section class="flex flex-row  justify-center  text-center space-x-10 py-6 gap-10">
   <div class="md:w-2/2 items-center text-center ">
     <img
       src="image2.webp"
       alt="First image"
-      class="rounded-md w-full object-cover"
+      class="w-64"
     >
   </div>
-  <div class=" text-white">
-    <h1 class="font-bold text-xl mb-4 mt-0">
-      Start with a prompt
-    </h1>
-    <p class="">
-      Start with a simple prompt describing what you want your agent to do. </p>
-     <p  class="mb-6" > Our builder interprets your idea and creates the structure for you in seconds.
-    </p>
-
-    <a href="#" class="inline-flex items-center gap-2 font-semibold  px-3 py-3 ">
-      Learn More
-       <i class="fa fa-arrow-up-right-from-square"></i>
-    </a>
-  </div>
-</section>    
-<section class="flex flex-col md:flex-row items-center gap-8 p-6">
-  <div class="md:w-1/2 text-white">
-    <h1 class="font-bold text-xl mb-4">
+  <div class=" text-white  justify-start text-left">
+    <h1 class="font-bold text-lg mb-4 mt-0">
       Start with a prompt
     </h1>
     <p>
-      Start with a simple prompt describing what you want your agent to do.
+      Start with a simple prompt describing what you want your agent to do. </p>
+     <p > Our builder interprets your idea and creates the structure for you in seconds.
     </p>
-    <p class="mb-6">
-      Our builder interprets your idea and creates the structure for you in seconds.
-    </p>
-    <a href="#" class="inline-flex items-center gap-2 font-semibold px-3 py-3">
+
+    <a href="#" class="inline-flex  gap-2 font-semibold  px-0 py-3 ">
       Learn More
-      <i class="fa fa-arrow-up-right-from-square"></i>
+       <i class="fa fa-arrow-up-right-from-square"></i>
     </a>
   </div>
-  <div class="md:w-1/2 flex justify-center">
-    <img
-      src="img3.jpg"
-      alt="First image"
-      class="rounded-md w-full max-w-sm object-cover"
-    >
+</section>  
+
+ 
+ <section class="flex justify-center py-10 gap-10">
+  <div class="flex flex-row items-center max-w-6xl w-full px-6 gap-10">
+<!-- TEXT -->
+    <div class="flex flex-col text-white text-left space-y-6 max-w-md text-justify">
+      <h1 class="font-bold text-lg">
+        Start with a prompt
+      </h1>
+      <div class="">
+        <span>
+          Start with a simple prompt describing what you want your agent to do.
+        </span>
+        <span>
+          Our builder interprets your idea and creates the structure for you in seconds.
+        </span>
+      </div>
+
+      <a href="#" class="inline-flex items-center gap-2 font-semibold">
+        Learn More
+        <i class="fa fa-arrow-up-right-from-square"></i>
+      </a>
+    </div>
+
+    <!-- IMAGE -->
+    <div class="flex justify-center">
+      <img
+        src="img3.jpg"
+        alt="People working"
+        class="rounded-md w-full max-w-md object-cover"
+      >
+    </div>
+
   </div>
 </section>
- <section class="flex flex-col md:flex-row  items-center gap-8 p-6">
-  
 
-  <div class="md:w-2/2 items-center text-center ">
+  <section class="flex flex-row  justify-center  text-center space-x-20 py-6 gap-10">
+  <div class=" ">
     <img
       src="img4.jpg"
       alt="First image"
-      class="rounded-md w-full object-cover"
+      class="rounded-md  max-w-md w-full object-cover"
     >
   </div>
-  <div class=" text-white">
+  <div class=" text-white justift-start text-left">
     <h1 class="font-bold text-xl mb-4 mt-0">
       Start with a prompt
     </h1>
     <p class="">
       Start with a simple prompt describing what you want your agent to do. </p>
-     <p  class="mb-6" > Our builder interprets your idea and creates the structure for you in seconds.
+     <p> Our builder interprets your idea and creates the structure for you in seconds.
     </p>
 
     <a href="#" class="inline-flex items-center gap-2 font-semibold  px-3 py-3 ">
@@ -181,8 +192,63 @@
     </a>
   </div>
 </section>
+<section>
+  <h1 class="items-center font-bold m-4 py-4 text-center">Here what aur trusted users about our best Al agents.</h1>
+  <p class="items-center  m-4 text-center">Empower your business with Al agents that optimize processes and accelerate performance </p>
+</section>
+ <section class="py-12">
+   <div class="flex flex-wrap justify-center gap-6 ">
+  <div class="w-64 shadow rounded p-4 m-5 border hover:bg-orange-700 
+            flex flex-col items-center justify-center text-center">
+
+ <img src="img5.jpg" alt="" class=" w-20 h-20  rounded-full object-cover justify-end" >
+    
+          
+    <h3 class="font-bold text-lg m-5 text-white"> Autinomous Agents</h3>
+
+    <p class="text-white">Agents that plan, execute & think step-by-step </p>
+  </div>
+
+  <div class="w-64 shadow rounded p-4 m-5 border hover:bg-orange-700 
+            flex flex-col items-center justify-center text-center ">
+       <img src="bible11.jpg" alt="" class=" w-20 h-20  rounded-full object-cover">
+    <h3 class="font-bold text-lg">Memory & Learning</h3>
+    <p class="text-white">Agent retain memory and improve over time.</p>
+  </div>
+
+  <div class="w-64 shadow rounded p-4 m-5 border hover:bg-orange-700 
+            flex flex-col items-center justify-center text-center">
+  <img src="bible8.jpg" alt="" class=" w-20 h-20  rounded-full object-cover">
+    <h3 class="font-bold text-lg">Real-time Execution</h3>
+    <p class="text-white">Fast responses with async task processing.</p>
+  </div>
+    <div class="w-64 shadow rounded p-4 m-5 border hover:bg-orange-700 
+            flex flex-col items-center justify-center text-center">
+   <img src="bible9.jpg" alt="" class=" w-20 h-20  rounded-full object-cover">
+    <h3 class="font-bold text-lg">Real-time Execution</h3>
+    <p class="text-white">Fast responses with async task processing.</p>
+  </div>
+    <div class="w-64 shadow rounded p-4 m-5 border hover:bg-orange-700 
+            flex flex-col items-center justify-center text-center">
+   <img src="bible14.jpg" alt="" class=" w-20 h-20  rounded-full object-cover">
+    <h3 class="font-bold text-lg text-white">Real-time Execution</h3>
+    <p class="text-white">Fast responses with async task processing.</p>
+  </div>
+    <div class="w-64 shadow rounded p-4 m-5 border hover:bg-orange-700 
+            flex flex-col items-center justify-center text-center">
+  <img src="bible16.jpg" alt="" class="w-20 h-20  rounded-full object-cover mb-3 " >
+    <h3 class="font-bold text-lg">Real-time Execution</h3>
+    <p class="text-white">Fast responses with async task processing.</p>
+  </div>
+</div>
+  </section>
+<div >
+  <h1 class="items-center text-center font-bold m-4 ">FAQ'S</h1>
+  <p class="items-center text-center ">
+    Looking for answer to your frequently asked questions? Check out our FAQ's section below to find 
+  </p>
+</div>
 
 
 </body>
-
 </html>
